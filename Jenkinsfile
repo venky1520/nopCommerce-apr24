@@ -11,6 +11,7 @@ pipeline{
                 git url: 'https://github.com/venky1520/nopCommerce-apr24.git',
                     branch: 'develop'
            } 
+           
         }
         stage('build') {
             steps {
